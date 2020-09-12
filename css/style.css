@@ -1,0 +1,22 @@
+
+
+.search input{
+    display: block;
+    margin: 10px auto;
+    max-width: 600px;
+    width: 60%;
+    padding: 15px;
+    font-size: 1.4em;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+
+.grid {
+    margin: 10px auto;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 33px;
+    grid-auto-rows: 200px;
+}
