@@ -4,7 +4,7 @@ function searchFilter() {
 
     // Loop
     for(let i = 0; i < 12; i++) {
-        let searchTerm = document.getElementsByTagName("img")[i].getAttribute("alt");
+        let searchTerm = document.getElementsByTagName("img")[i].getAttribute("alt").toLowerCase();
         let itMatches = searchTerm.includes(input)
 
         if (!itMatches) {
